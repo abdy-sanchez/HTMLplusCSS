@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+
+
+#main-aside-grid-container{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    padding-top: 5%;
+
+}
+
+#main-aside-grid-container .ref-image{
+
+    height: auto; 
+    max-width: 100%;
+}
+
+#photo-grid-cointainer{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 0 2%;
+}
+
+#about-us p{
+
+    padding: 90% 10%;
+    
+}

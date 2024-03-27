@@ -8,6 +8,7 @@
     <meta name="author" content="Abdy Sánchez :))" />
     <link rel="icon" href="media/plane16.png" type="image/x-icon" />
     <title>𝐓𝐫𝐚𝐯𝐞𝐥 𝐏𝐚𝐫𝐭𝐧𝐞𝐫𝐬 • 𝐇𝐎𝐌𝐄</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
 </head>
 
@@ -15,7 +16,7 @@
 
 <body>
 
-    <header>
+    <header id="index-header">
 
         <h1 id="main-title">
             Travel Partners
@@ -23,47 +24,43 @@
 
         <img src="media/main_banner.jpg" alt="Banner principal" width="600" height="200"/>
 
+        <h2 id="menu-title">
+            Lista de Destinos
+        </h2>
+
         <nav id="nav-menu">
-
-            <h2 id="menu-title">
-                Lista de Destinos
-            </h2>
-
-            <ul id="destination-list">
-
-                <li>
+ 
+                <div id="destination-list">
+                
                     <a href="#england" >INGLATERRA</a>
-                </li>
+              
 
-                <li>
+              
                     <a href="#new-york" >NUEVA YORK</a>
-                </li>
+               
 
-                <li>
+               
                     <a href="#cairo" >EL CAIRO</a>
-                </li>
-
-                <li>
-                    <a href="#japan" >JAPÓN</a>
-                </li>
-
-                <li>
-                    <a href="#rome" >ROMA</a>
-                </li>
-
-                <li>
-                    <a href="#medellin" >MEDELLIN</a>
-                </li>
-     
                 
 
-            </ul>
+                
+                    <a href="#japan" >JAPÓN</a>
+                
+
+              
+                    <a href="#rome" >ROMA</a>
+                
+
+               
+                    <a href="#medellin" >MEDELLIN</a>
+                
+                </div>
 
         </nav>
 
     </header>
 
-
+<div id="main-aside-grid-container">
 
     <main>
 
@@ -73,83 +70,88 @@
             ¡Nuestros Destinos!
             </h2>
 
-            <section id="england">
+                    <div id="photo-grid-cointainer">
 
-                <h3>
-                    Inglaterra
-                </h3>
-                <a href="england.html" >
+                        <section id="england">
 
-                    <img src="media/england_image.jpeg" alt="Imagen referencia de inglaterra" width="400" height="300"/>
+                            <h3>
+                                Inglaterra
+                            </h3>
+                            <a href="england.html" >
+            
+                                <img class="ref-image" src="media/england_image.jpeg" alt="Imagen referencia de inglaterra" />
+            
+                            </a>
+            
+                        </section>
+            
+                        <section id="new-york">
+            
+                            <h3>
+                                Nueva York
+                            </h3>
+                            <a href="new_york.html" >
+            
+                                <img class="ref-image" src="media/new_york_image.jpg" alt="Imagen referencia de Nueva York" />
+            
+                            </a>
+            
+                        </section>
+            
+                        <section id="cairo">
+            
+                            <h3>
+                                El Cairo
+                            </h3>
+                            <a href="cairo.html" >
+            
+                                <img class="ref-image" src="media/cairo_image.jpg" alt="Imagen referencia del Cairo" />
+            
+                            </a>
+            
+                        </section>
+            
+                        <section id="japan">
+            
+                            <h3>
+                                Japón
+                            </h3>
+                            <a href="japan.html" >
+            
+                                <img class="ref-image" src="media/japan_image.jpg" alt="Imagen referencia de Japón" />
+            
+                            </a>
+            
+                        </section>
+            
+                        <section id="rome">
+            
+                            <h3>
+                                Roma
+                            </h3>
+                            <a href="rome.html" >
+            
+                                <img class="ref-image" src="media/rome_image.jpeg" alt="Imagen referencia de Roma" />
+            
+                            </a>
+            
+                        </section>
+            
+                        <section id="medellin">
+            
+                            <h3>
+                                Medellín
+                            </h3>
+                            <a href="medellin.html" >
+            
+                                <img class="ref-image" src="media/medellin_image.jpg" alt="Imagen referencia de Medellín" />
+            
+                            </a>
+            
+                        </section>
+            
 
-                </a>
-
-            </section>
-
-            <section id="new-york">
-
-                <h3>
-                    Nueva York
-                </h3>
-                <a href="new_york.html" >
-
-                    <img src="media/new_york_image.jpg" alt="Imagen referencia de Nueva York" width="400" height="300"/>
-
-                </a>
-
-            </section>
-
-            <section id="cairo">
-
-                <h3>
-                    El Cairo
-                </h3>
-                <a href="cairo.html" >
-
-                    <img src="media/cairo_image.jpg" alt="Imagen referencia del Cairo" width="400" height="300"/>
-
-                </a>
-
-            </section>
-
-            <section id="japan">
-
-                <h3>
-                    Japón
-                </h3>
-                <a href="japan.html" >
-
-                    <img src="media/japan_image.jpg" alt="Imagen referencia de Japón" width="400" height="300"/>
-
-                </a>
-
-            </section>
-
-            <section id="rome">
-
-                <h3>
-                    Roma
-                </h3>
-                <a href="rome.html" >
-
-                    <img src="media/rome_image.jpeg" alt="Imagen referencia de Roma" width="400" height="300"/>
-
-                </a>
-
-            </section>
-
-            <section id="medellin">
-
-                <h3>
-                    Medellín
-                </h3>
-                <a href="medellin.html" >
-
-                    <img src="media/medellin_image.jpg" alt="Imagen referencia de Medellín" width="400" height="300"/>
-
-                </a>
-
-            </section>
+                    </div>
 
         </article>
 
@@ -173,6 +175,8 @@
         </section>
 
     </aside>
+
+</div>
 
     <footer>
 
