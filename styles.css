@@ -1,5 +1,110 @@
 *{
     text-align: center;
+
+}
+
+a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    color: #280700;
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: #FFF7EF;
+    font-size: 24px;
+}
+
+section h3{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    color: #161310;
+    background-color: rgba(255, 246,231, 0.5);
+    font-size: 24px;
+    border-radius: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    z-index:2;
+
+}
+
+#arrow-up:hover{
+
+    width: 45px ;
+    height: 45px ;
+}
+
+
+p{
+
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 18px;
+      
+}
+
+p i{
+
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+}
+
+#menu-title{
+
+    font-size: 36px;
+    color: #524438;
+
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 2px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+
+}
+
+h2{
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    color: #7A4943;
+    
+}
+
+h1#main-title{
+
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    color: #FFF7EF;
+    font-size: 64px;
+
+    position: absolute;
+    top: 20%;
+    left: 32%;
+   
+}
+
+body{
+      
+    background:
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#755434 68% 70%,#0000 72%) 37px 37px/calc(2*37px) calc(2*37px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#755434 68% 70%,#0000 72%) 37px 37px/calc(2*37px) calc(2*37px),
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#755434 68% 70%,#0000 72%) 0 0/calc(2*37px) calc(2*37px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#755434 68% 70%,#0000 72%) 0 0/calc(2*37px) calc(2*37px),
+      repeating-conic-gradient(#ab8663 0 25%,#0000 0 50%) 0 0/calc(2*37px) calc(2*37px),
+      radial-gradient(#0000 66%,#755434 68% 70%,#0000 72%) 0 calc(37px/2)/37px 37px
+      #ab8663;
+
+
 }
 
 
@@ -12,23 +117,96 @@
 
 }
 
-#main-aside-grid-container .ref-image{
+aside{
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+}
 
-    height: auto; 
-    max-width: 100%;
+
+footer{
+
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+ 
+}
+
+main{
+
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+}
+
+nav{
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 10px;
+}
+
+
+.ref-image{
+    display: block;
+    width: 100%;
+    height: 320px; 
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.ref-image:hover{
+
+    filter: blur(2px);
 }
 
 #photo-grid-cointainer{
 
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 12px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding: 0 2%;
+    
 }
 
 #about-us p{
 
     padding: 90% 10%;
     
+}
+
+
+#destination-list{
+
+    display:flex;
+    justify-content:space-around;
+}
+
+
+#header-banner, #medellin, #rome, #japan, #cairo, #new-york, #england{
+
+    position: relative;
+    text-align: center;
+    
+}
+
+h3{
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-banner img{
+
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 20% 40%;
+    border-radius: 25px;
 }
