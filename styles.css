@@ -9,6 +9,8 @@ a{
     font-style: Bold;
     color: #280700;
     text-decoration: none;
+    transition: font-size 0.5s;
+    
 }
 
 a:hover{
@@ -31,6 +33,10 @@ section h3{
 
     z-index:2;
 
+}
+
+#arrow-up{
+    transition: width 0.5s, height 0.5s;
 }
 
 #arrow-up:hover{
@@ -156,6 +162,7 @@ nav{
     height: 320px; 
     object-fit: cover;
     border-radius: 25px;
+    transition: filter 0.7s;
 }
 
 .ref-image:hover{
