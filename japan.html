@@ -8,125 +8,96 @@
         <link rel="icon" href="media/plane16.png" type="image/x-icon" />
         <title>𝐓𝐫𝐚𝐯𝐞𝐥 𝐏𝐚𝐫𝐭𝐧𝐞𝐫𝐬 • 𝐉𝐚𝐩𝐨𝐧</title>
         <link rel="stylesheet" type="text/css" href="styles2.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
     </head>
 
     <body>
 
         <header>
 
-            <h1 id="main-title-japan">
-                Japón
-            </h1>
+            <div id="header-banner">
 
-            <img src="media/japan_ref_imagejpg.jpg" alt="Imagen principal" width="560" height="315"/>
+                <div id="header-banner-flex-container">
 
-            <nav id="nav-menu">
+                    <h1 id="main-title">
+                        Japón
+                    </h1>
+
+                    <nav id="nav-menu">
 
 
-                <a href="index.html" >
+                        <a href="index.html" >
+        
+                            <img src="media/home.png" alt="icono volver al Home"/>
+        
+                        </a>
+            
+                                <a href="england.html" >INGLATERRA</a>
 
-                    <img src="media/home.png" alt="icono volver al Home" width="30" height="30"/>
+                                <a href="new_york.html" >NUEVA YORK</a>
+                         
+                                <a href="cairo.html" >EL CAIRO</a>
 
-                </a>
+                                <a href="rome.html" >ROMA</a>
+   
+                                <a href="medellin.html" >MEDELLIN</a>
+            
+                    </nav>
 
-                <h3>
-                    Otros Destinos
-                </h3>
+                </div>
     
-                <ul id="destination-list">
-    
-                    <li>
-                        <a href="england.html" >INGLATERRA</a>
-                    </li>
-    
-                    <li>
-                        <a href="new_york.html" >NUEVA YORK</a>
-                    </li>
-    
-                    <li>
-                        <a href="cairo.html" >EL CAIRO</a>
-                    </li>
-    
-                    <li>
-                        <a href="rome.html" >ROMA</a>
-                    </li> 
-                    
-                    <li>
-                        <a href="medellin.html" >MEDELLIN</a>
-                    </li>
-    
-                </ul>
-    
-            </nav>
+                <img src="https://cdn.pixabay.com/photo/2017/01/28/02/24/japan-2014616_1280.jpg" alt="Imagen Principal" />
+
+            </div>
+
+            
 
         </header>
 
         <main>
 
+            <aside id="sections-nav">
+                <ul>
+                    <li><a href="#tralev-spot-description">Descripción</a></li>
+                    <li><a href="#tralev-spot-attractions">Atracciones</a></li>
+                    <li><a href="#schedules">Itinerarios</a></li>
+                    <li><a href="#prices">Costos</a></li>                 
+                </ul>
+            </aside>
+
             <article id="tralev-spot-main-article">
+
+                
 
                 <section id="tralev-spot-description">
 
                     <h2>Descripción</h2>
 
-                    <p>Japón es una nación insular del océano Pacífico con densas ciudades, palacios imperiales, parques nacionales montañosos y miles de santuarios y templos. El tren bala Shinkansen conecta las islas principales de Kyushu (con las playas subtropicales de Okinawa), Honshu (con Tokio y el memorial del bombardeo atómico en Hiroshima) y Hokkaido (famosa por el esquí). Tokio, la capital, es famosa por sus rascacielos, el comercio y la cultura pop.</p>
+                    <div class="container">
 
-                    <ul>
-                        <li><b>Capital:</b> Tokio</li>
-                        <li><b>Población:</b> 125.7 millones (2021) </li>
-                        <li><b>Gobierno:</b> Democracia, Parlamentarismo, Estado unitario, Monarquía constitucional</li>
-                    </ul>
+                        <p class="original">Japón es una nación insular del océano Pacífico con densas ciudades, palacios imperiales, parques nacionales montañosos y miles de santuarios y templos.</p>
 
-                    <img src="media/japan_ref_image2.jpg" alt="Imagen de referencia" width="560" height="315"/>
+                        <span class="dots">[...]</span>
 
-                </section>
+                        <p class="extra"> El tren bala Shinkansen conecta las islas principales de Kyushu (con las playas subtropicales de Okinawa), Honshu (con Tokio y el memorial del bombardeo atómico en Hiroshima) y Hokkaido (famosa por el esquí). Tokio, la capital, es famosa por sus rascacielos, el comercio y la cultura pop.</p>
+                        <ul class="extra">
+                            <li><b>Capital:</b> Tokio</li>
+                            <li><b>Población:</b> 125.7 millones (2021) </li>
+                            <li><b>Gobierno:</b> Democracia, Parlamentarismo, Estado unitario, Monarquía constitucional</li>
+                        </ul>
 
-                <section id="tralev-spot-attractions">
+                        <input type="checkbox" id="btn" />
+                        <label for="btn"></label>
 
-                    <h2>Atracciones destacadas</h2>
+                    </div>
 
-                    <ul id="attraction-list">
+                    
 
-                        <li>
-                            <h4>Shibuya</h4>
-                            <p>El famoso cruce de Shibuya es sin duda una de las imágenes más icónicas de Tokio. En un día normal de trabajo, esta bulliciosa intersección puede llegar a registrar unos niveles de tráfico pedestre que llegan a los 2,8 millones de personas. Sí, como lo oyes, ¡2,8 millones de personas en un día! Así que si intentas sacarte un selfie molón en medio de la locura de este cruce, ¡asegúrate de que llegas a la otra acera antes de que el semáforo se ponga en rojo!
-
-                                Además del alucinante cruce de Shibuya, en esta área también se encuentran muchas de las marcas de ropa más modernas de Tokio. Las de ultimísima moda suelen estar en la Center Gai Street y alrededores. El famoso centro comercial 109 de Shibuya, por ejemplo, es uno de los lugares predilectos de muchos shoppers y está situado a tan sólo unos minutos de la estación de tren.</p>                           
-                        </li>
-
-                        <li>
-                            <h4>Naoshima</h4>
-                            <p>Naoshima es una pequeña isla del Mar Interior de Seto que forma parte de la Prefectura de Kanagawa. Aunque es una excursión muy agradable desde Tokio que te permitirá conocer un poco mejor el rural japonés, la isla es famosa sobre todo por sus numerosos museos de arte moderno, su arquitectura y sus esculturas, muchas de ellas diseñadas por el conocido arquitecto Ando Tadao. Entre los lugares de interés de la isla figuran el Chichu Art Museum, el Lee Ufan Museum y la Benesse House.</p>                           
-                        </li>
-
-                        <li>
-                            <h4>Asakusa</h4>
-                            <p>Esta área de Tokio es conocida sobre todo por ser la principal zona cultural de la ciudad. Aunque el distrito alberga algunos templos pequeños, la atracción principal es el majestuoso templo Senso-ji y la zona comercial de Nakamise que lo rodea. Además de estos tesoros históricos, Asakusa también está situada a poca distancia del Tokyo Sky Tree y de la sede de la cerveza Asahi. Si vas a estar por la zona, ¡no dejes de visitar estos dos lugares! ¡La sede de la cerveza Asahi es uno de los mejores sitios que visitar en Japón para los amantes de la cerveza!</p>                           
-                        </li>
-
-                        <li>
-                            <h4>Kabukicho</h4>
-                            <p>Shinjuku es un barrio famoso por sus abrumadoras luces de neón. Y muestra de ello es la zona de Kabukicho, cuyo nombre proviene del teatro Kabuki que se erigió en las inmediaciones tras las devastadoras consecuencias de la Segunda Guerra Mundial. Desde entonces, Kabukicho se ha convertido en uno de los “barrios rojos” más grandes de Japón, un lugar plagado de bares, clubs de alterne contemporáneos y otros entretenimientos modernos para adultos.</p>                           
-                        </li>
-
-                        <li>
-                            <h4>Yokohama</h4>
-                            <p>A pesar de que la vecina sur de Tokio no es precisamente una desconocida, no deja de ser sorprendente que muchos visitantes la pasen por alto cuando vienen a Japón. Y lo cierto es que con su historia y su encanto es una verdadera pena. En Yokohama podrás pasear por las calles de uno de los barrios chinos más grandes del mundo o pasar un día súper divertido a orillas del mar en el conocido Minato Mirai. Pero en cualquier caso, ¡esta ciudad siempre sorprende a todo el que la visita! Ante el vertiginoso ritmo al que parece ir Tokio, la acogedora atmósfera de Yokohama es sin duda mucho más tranquila. Una de las mejores cosas que hacer en Japón es pasarte un día deambulando por las calles de Yokohama para poder percibir de forma global cómo son estas dos ciudades tan diferentes.</p>                           
-                        </li>
-
-                        <li>
-                            <h4>Parque de Hitsujiyama</h4>
-                            <p>Japón es conocido por sus cerezos en flor, así que una de las cosas imprescindibles que debes hacer en el país es visitarlo en la época de la floración. ¿Te has fijado en las flores de la foto? Son las hermosas shibazakura, también llamadas “césped de flores”, que podrás ver si visitas el Parque de Hitsujiyama.</p>                           
-                        </li>
-
-                        <li>
-                            <h4>Monte Fuji</h4>
-                            <p>En los últimos años el volcán activo más grande de Japón ha atraído a gente de todas partes del mundo que quería alcanzar su cima. La temporada de ascensos al Monte Fuji comienza oficialmente en verano, concretamente a principios de julio, y termina a mediados de septiembre, un período estacional breve en el que penas cae nieve en la montaña y en el que el tiempo suele ser bastante suave.</p>                           
-                        </li>
-
-                    </ul>
-
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cO6oJdrB4ZU?si=MVuldc3f09xG-Uye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <img src="media/japan_ref_image2.jpg" alt="Imagen de referencia" width="560" height="315" style="margin-top: 40px;"/>
 
                 </section>
 
@@ -137,29 +108,61 @@
                     <ul>
                         <li>
                             <h4>Día 1: Recorrido gastronómico a pie por Shibuya por la noche</h4>
-                            <p>Hágase una idea de la comida y la cultura de Japón durante este recorrido a pie por el barrio de Shibuya en Tokio. Escape de las hordas de turistas y coma igual que un japonés, probando platos favoritos como el "okonomiyaki" (sabrosas tortitas de huevo), brochetas de ternera kobe y mucho más en bares y restaurantes poco frecuentados por turistas en la zona. Brinde por su aventura y sus nuevos amigos con un vaso de cerveza, shōchū (licor de arroz) o refrescos (incluido)</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Hágase una idea de la comida y la cultura de Japón durante este recorrido a pie por el barrio de Shibuya en Tokio. Escape de las hordas de turistas y coma igual que un japonés, probando platos favoritos como el "okonomiyaki" (sabrosas tortitas de huevo), brochetas de ternera kobe y mucho más en bares y restaurantes poco frecuentados por turistas en la zona. Brinde por su aventura y sus nuevos amigos con un vaso de cerveza, shōchū (licor de arroz) o refrescos (incluido)
+                                    </div>
+                                  </div>                   
+                        
                         </li>
 
                         <li>
                             <h4>Día 2: Recorrido a pie por Tokio para grupos reducidos; distritos de Ningyocho y Nihonbashi</h4>
-                            <p>La ciudad ultramoderna de Tokio aún alberga muchas sorpresas antiguas, si se sabe dónde encontrarlas. En este recorrido de 3 horas a pie por los distritos de Ningyocho y Nihonbashi, su guía local le mostrará los tesoros ocultos, como las antiguas tiendas donde se venden instrumentos musicales tradicionales e incienso. Aprenda sobre las formas artísticas clásicas del Japón y vea comerciantes de papelería, material para caligrafía, elementos decorativos de pan de horo y mucho más. Además, podrá probar algunos de los aperitivos favoritos mientras explora una zona menos conocida de Tokio, viajando con un pequeño grupo limitado a 12 personas para obtener una experiencia más personalizada.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        La ciudad ultramoderna de Tokio aún alberga muchas sorpresas antiguas, si se sabe dónde encontrarlas. En este recorrido de 3 horas a pie por los distritos de Ningyocho y Nihonbashi, su guía local le mostrará los tesoros ocultos, como las antiguas tiendas donde se venden instrumentos musicales tradicionales e incienso. Aprenda sobre las formas artísticas clásicas del Japón y vea comerciantes de papelería, material para caligrafía, elementos decorativos de pan de horo y mucho más. Además, podrá probar algunos de los aperitivos favoritos mientras explora una zona menos conocida de Tokio, viajando con un pequeño grupo limitado a 12 personas para obtener una experiencia más personalizada.
+                                    </div>
+                                  </div>
+                            
                         </li>
 
                         <li>
                             <h4>Día 3: Excursión en autobús de un día al monte Fuji y Hakone</h4>
-                            <p>Descubra Japón más allá de Tokio con esta excursión de un día completo para ver el monte Fuji. Durante el viaje en autobús, admire la belleza natural de Hakone y relájese durante el almuerzo con vistas a la montaña más alta de Japón, el monte Fuji. Súbase a un barco para realizar un recorrido panorámico por el lago Ashi y dar un paseo en un teleférico sobre el valle Owakudani.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Descubra Japón más allá de Tokio con esta excursión de un día completo para ver el monte Fuji. Durante el viaje en autobús, admire la belleza natural de Hakone y relájese durante el almuerzo con vistas a la montaña más alta de Japón, el monte Fuji. Súbase a un barco para realizar un recorrido panorámico por el lago Ashi y dar un paseo en un teleférico sobre el valle Owakudani.
+                                    </div>
+                                  </div>
+                            
                         </li>
 
                         <li>
                             <h4>Día 4: Excursión de día completo con macacos japoneses, el templo Zenko-ji y una degustación de sake en Nagano</h4>
-                            <p>Visite dos de las principales atracciones cerca de Nagano en esta excursión de 8 horas, que incluye una visita al famoso parque de macacos japoneses y una parada en el tranquilo templo Zenko-ji. Recorra un hermoso sendero por el bosque que le conducirá al hogar de los macacos japoneses de Jigokudani, una colonia de monos conocida por su adaptación para vivir en la nieve y bañarse en las aguas termales de la zona. A continuación, podrá disfrutar de un descanso para tomar un delicioso almuerzo antes de seguir al tranquilo recinto de Zenko-ji, un bonito emplazamiento religioso, conocido por su histórica estatua budista. Por último, disfrute de una cata de sake en las inmediaciones y pruebe el sabor de Nagano.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Visite dos de las principales atracciones cerca de Nagano en esta excursión de 8 horas, que incluye una visita al famoso parque de macacos japoneses y una parada en el tranquilo templo Zenko-ji. Recorra un hermoso sendero por el bosque que le conducirá al hogar de los macacos japoneses de Jigokudani, una colonia de monos conocida por su adaptación para vivir en la nieve y bañarse en las aguas termales de la zona. A continuación, podrá disfrutar de un descanso para tomar un delicioso almuerzo antes de seguir al tranquilo recinto de Zenko-ji, un bonito emplazamiento religioso, conocido por su histórica estatua budista. Por último, disfrute de una cata de sake en las inmediaciones y pruebe el sabor de Nagano.
+                                    </div>
+                                  </div>
+                            
                         </li>
 
                         <li>
                             <h4>Día 5: Recorrido fotográfico nocturno por Tokio</h4>
-                            <p>Explore el ambiente eléctrico nocturno de Tokio durante este tour nocturno de 2.5 horas para grupos pequeños. Aprenda de un guía de fotógrafos profesionales cómo usar un trípode para capturar exposiciones largas de senderos de semáforos que atraviesan la ciudad. Recorra las calles teñidas de neón de Shinjuku y Shibuya en Tokio, y aprenda consejos para la composición y la técnica a lo largo del camino. Mantén tus ojos bien abiertos para tomar fotos geniales y estás seguro de capturar algunas imágenes geniales de las vistas icónicas y menos conocidas de la ciudad. Esta excursión personalizada para grupos pequeños, limitada a solo 6 participantes, también ofrece una actualización opcional de alquiler de trípode.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Explore el ambiente eléctrico nocturno de Tokio durante este tour nocturno de 2.5 horas para grupos pequeños. Aprenda de un guía de fotógrafos profesionales cómo usar un trípode para capturar exposiciones largas de senderos de semáforos que atraviesan la ciudad. Recorra las calles teñidas de neón de Shinjuku y Shibuya en Tokio, y aprenda consejos para la composición y la técnica a lo largo del camino. Mantén tus ojos bien abiertos para tomar fotos geniales y estás seguro de capturar algunas imágenes geniales de las vistas icónicas y menos conocidas de la ciudad. Esta excursión personalizada para grupos pequeños, limitada a solo 6 participantes, también ofrece una actualización opcional de alquiler de trípode.
+                                    </div>
+                                  </div>
+                            
                         </li>
                     </ul>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cO6oJdrB4ZU?si=MVuldc3f09xG-Uye" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     
                 </section>
 
@@ -174,14 +177,46 @@
                     
                 </section>
 
+                <section id="tralev-spot-attractions">
+    
+                    <h2>Atracciones destacadas</h2>
+
+                    <div id="attraction-list">
+
+                        <div id="image-container1" style='background-image: url("https://cdn.pixabay.com/photo/2020/07/23/01/16/heritage-5430081_1280.jpg");'>
+                            <h4>Shibuya</h4>
+                        </div>
+
+                        <div id="image-container2" style='background-image: url("https://cdn.pixabay.com/photo/2020/08/28/13/15/river-5524569_1280.jpg");'>
+                            <h4>Naoshima</h4>
+                            
+                        </div>
+
+                        <div id="image-container3" style='background-image: url("https://cdn.pixabay.com/photo/2015/02/15/03/04/japanese-umbrellas-636870_1280.jpg");'>
+                            <h4>Asakusa</h4>
+                            
+                        </div>
+
+                        <div id="image-container4" style='background-image: url("https://cdn.pixabay.com/photo/2014/10/07/13/48/mountain-477832_1280.jpg");'>
+                            <h4>Monte Fuji</h4>
+                            
+                        </div>
+
+                    </div>
+
+
+                </section>
+
             </article>
+
+            
 
         </main>
 
         <footer>
 
             <a href="#">
-                <img src="media/arrowUp.png" alt="Volver arriba" width="30" height="30"/>
+                <img id="arrow-up" src="media/arrowUp.png" alt="Volver arriba" width="30" height="30"/>
             </a>
     
             <p>

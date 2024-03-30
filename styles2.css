@@ -1,3 +1,384 @@
 *{
     text-align: center;
 }
+
+a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    color: #280700;
+    text-decoration: none;
+    transition: font-size 0.5s;
+   
+    
+}
+
+a:hover{
+
+    color: #FFF7EF;
+    font-size: 24px;
+}
+
+#arrow-up{
+    transition: width 0.5s, height 0.5s;
+}
+
+#arrow-up:hover{
+
+    width: 45px ;
+    height: 45px ;
+}
+
+p, ul, li{
+
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: light;
+    font-size: 18px;
+
+      
+}
+
+h4{
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+}
+
+h5{
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+}
+
+p i{
+
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+}
+
+
+body{
+      
+    background:
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#755434 68% 70%,#0000 72%) 37px 37px/calc(2*37px) calc(2*37px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#755434 68% 70%,#0000 72%) 37px 37px/calc(2*37px) calc(2*37px),
+      radial-gradient(35.36% 35.36% at 100% 25%,#0000 66%,#755434 68% 70%,#0000 72%) 0 0/calc(2*37px) calc(2*37px),
+      radial-gradient(35.36% 35.36% at 0    75%,#0000 66%,#755434 68% 70%,#0000 72%) 0 0/calc(2*37px) calc(2*37px),
+      repeating-conic-gradient(#ab8663 0 25%,#0000 0 50%) 0 0/calc(2*37px) calc(2*37px),
+      radial-gradient(#0000 66%,#755434 68% 70%,#0000 72%) 0 calc(37px/2)/37px 37px
+      #ab8663;
+
+
+}
+
+footer{
+
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+ 
+}
+
+
+#header-banner-flex-container{
+
+    display: flex;
+    margin: 12px;
+    padding: 8px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    height: 50px;
+    width: 95%;
+
+    position: fixed;
+    z-index: 10;
+}
+
+
+#main-title{
+
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+    color: #280700;
+    padding: 8px;
+
+}
+
+#header-banner img{
+
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: 20% 40%;
+    border-radius: 25px;
+}
+
+#nav-menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    padding-right: 20px;
+    
+}
+
+#nav-menu img{
+
+    transition: width 0.5s, height 0.5s;
+    width: 30px ;
+    height: 30px ; 
+    
+}
+
+#nav-menu img:hover{
+
+    width: 45px ;
+    height: 45px ;
+}
+
+#header-banner-flex-container{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h2{
+
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    color: #7A4943;
+
+}
+
+section{
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+}
+
+
+aside{
+
+    position: sticky;
+    top: 100px;
+    width: 220px;
+}
+
+
+#tralev-spot-description{
+    
+    height:fit-content ;
+}
+
+
+#tralev-spot-attractions{
+
+   
+    height:fit-content ;
+}
+
+#schedules{
+    
+    height:fit-content ;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    display: block;
+    
+}
+
+aside ul li a{ 
+    text-align: left;
+    font-size: 14px;
+}
+
+aside ul li a:hover{
+    font-size: 20px;
+}
+
+
+aside ul{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    margin: 12px;
+    padding: 20px;
+    background-color: rgba(255, 246,231, 0.5);
+    border-radius: 25px;
+    height: 100px;
+    width: 120px;
+
+    
+}
+
+iframe, section img[alt$="referencia"]{
+
+    border-radius: 25px;
+
+    width:380px;
+    height:260px;
+    
+
+}
+
+#prices ul{
+
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+
+#prices{
+
+  
+    height:fit-content ;
+}
+
+#attraction-list{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    height: fit-content;
+}
+
+#tralev-spot-attractions h4{
+
+    color: #FFF7EF;
+    background-color: rgba(143, 142, 141, 0.5);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+div[id^="image-container"]{
+
+    width: 460px;
+    height: 315px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    background-size:cover;
+    background-position:center;
+
+}
+
+#image-container1{
+
+    position: relative;
+    top: 50px;
+    left: 150px;
+    z-index: 4;
+}
+
+#image-container2{
+
+    position: relative;
+    top: -0px;
+    left: -150px;
+ 
+    z-index: 3;
+}
+
+#image-container3{
+
+    position: relative;
+    top: -40px;
+    left: 150px;
+
+    z-index: 2;
+}
+
+#image-container4{
+
+    position: relative;
+    top: -80px;
+    left: -150px;
+    z-index: 1;
+}
+
+
+.extra {
+    display: none;
+}
+
+  input[type="checkbox"] {
+    height: 2em;
+    display: block;
+    appearance: none;
+  }
+  label {
+
+    font-family: "Zilla Slab", serif;
+    font-weight: 800;
+    font-style: light;
+    font-size: 14px;
+
+    position: relative;
+    padding: 1em;
+    background-color: #755434;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  label:before {
+    content: "Leer más";
+  }
+
+.dots{
+    font-size: 18px;
+}
+
+  input[type="checkbox"]:checked ~ label:before {
+    content: "Leer menos";
+  }
+  .dots:has(~ input[type="checkbox"]:checked) {
+    display: none;
+  }
+  .extra:has(~ input[type="checkbox"]:checked) {
+    display: inline;
+  }
+
+
+.expander {
+display: grid;
+grid-template-rows: 0fr;
+overflow: hidden;
+transition: grid-template-rows 1s;
+}
+.expander-content {
+min-height: 0;
+padding-right: 20px;
+}
+
+h4:hover + .expander{
+    grid-template-rows: 1fr;
+  }
+
+
+

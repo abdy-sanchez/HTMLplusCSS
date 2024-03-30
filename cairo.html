@@ -8,6 +8,10 @@
         <link rel="icon" href="media/plane16.png" type="image/x-icon" />
         <title>𝐓𝐫𝐚𝐯𝐞𝐥 𝐏𝐚𝐫𝐭𝐧𝐞𝐫𝐬 • 𝐄𝐥 𝐂𝐚𝐢𝐫𝐨</title>
         <link rel="stylesheet" type="text/css" href="styles2.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         
     </head>
 
@@ -15,96 +19,93 @@
 
         <header>
 
-            <h1 id="main-title-cairo">
-                El Cairo
-            </h1>
+            <div id="header-banner">
 
-            <img src="media/cairo_def_image2.jpg" alt="Imagen Principal" width="560" height="315"/>
+                <div id="header-banner-flex-container">
 
-            <nav id="nav-menu">
+                    <h1 id="main-title">
+                        El Cairo
+                    </h1>
+
+                    <nav id="nav-menu">
 
 
-                <a href="index.html" >
+                        <a href="index.html" >
+        
+                            <img src="media/home.png" alt="icono volver al Home"/>
+        
+                        </a>
+            
+                                <a href="england.html" >INGLATERRA</a>
+                                        
+                                
+                                <a href="new_york.html" >NUEVA YORK</a>
+                          
 
-                    <img src="media/home.png" alt="icono volver al Home" width="30" height="30"/>
+                                <a href="japan.html" >JAPÓN</a>
+                          
+                          
+                                <a href="rome.html" >ROMA</a>
+                            
+                          
+                                <a href="medellin.html" >MEDELLIN</a>
+            
+                    </nav>
 
-                </a>
+                </div>
+    
+                <img src="media/cairo_def_image2.jpg" alt="Imagen Principal" />
 
-                <h3>
-                    Otros Destinos
-                </h3>
-    
-                <ul id="destination-list">
-    
-                    <li>
-                        <a href="england.html" >INGLATERRA</a>
-                    </li>
-    
-                    <li>
-                        <a href="new_york.html" >NUEVA YORK</a>
-                    </li>
-    
-                    <li>
-                        <a href="japan.html" >JAPÓN</a>
-                    </li>
-    
-                    <li>
-                        <a href="rome.html" >ROMA</a>
-                    </li>  
-                    
-                    <li>
-                        <a href="medellin.html" >MEDELLIN</a>
-                    </li>
-    
-                </ul>
-    
-            </nav>
+            </div>
+
+            
 
         </header>
 
         <main>
 
+            <aside id="sections-nav">
+                <ul>
+                    <li><a href="#tralev-spot-description">Descripción</a></li>
+                    <li><a href="#tralev-spot-attractions">Atracciones</a></li>
+                    <li><a href="#schedules">Itinerarios</a></li>
+                    <li><a href="#prices">Costos</a></li>                 
+                </ul>
+            </aside>
+
             <article id="tralev-spot-main-article">
+
+                
 
                 <section id="tralev-spot-description">
 
                     <h2>Descripción</h2>
 
-                    <p>
-                        El Cairo, la extensa capital de Egipto, se ubica en el río Nilo. En su centro, se encuentra la plaza Tahrir y el vasto Museo Egipcio, un tesoro de antigüedades que incluye momias reales y artefactos bañados en oro del faraón Tutankamón. Cerca se encuentra Guiza, sitio de las icónicas pirámides y la Gran Esfinge, que data del siglo XXVI a. C. En el frondoso distrito Zamalek de la isla Gezira, la Torre de El Cairo, de 187 m de altura, tiene vistas panorámicas de la ciudad.
-                    </p>
+                    <div class="container">
 
-                    <ul>
-                        <li><b>Población:</b> 9.54 millones (2017) </li>
-                        <li><b>Clima:</b> árido cálido BWh </li>
-                        <li><b>Gentilicio:</b> cairota</li>
-                        <li><b>Gobernador:</b> Khaled Abdel Aal</li>
-                    </ul>
+                        <p class="original">
+                            El Cairo, la extensa capital de Egipto, se ubica en el río Nilo. En su centro, se encuentra la plaza Tahrir y el vasto Museo Egipcio, un tesoro de antigüedades que incluye momias reales y artefactos bañados en oro del faraón Tutankamón.
+                        </p>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2PMHKOFjPWc?si=Ej6J-ivl24QgMJMf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <span class="dots">[...]</span>
 
-                </section>
-        
+                        <p class="extra">
+                            Cerca se encuentra Guiza, sitio de las icónicas pirámides y la Gran Esfinge, que data del siglo XXVI a. C. En el frondoso distrito Zamalek de la isla Gezira, la Torre de El Cairo, de 187 m de altura, tiene vistas panorámicas de la ciudad.
+                        </p>
 
-                <section id="tralev-spot-attractions">
+                        <ul class="extra">
+                            <li><b>Población:</b> 9.54 millones (2017) </li>
+                            <li><b>Clima:</b> árido cálido BWh </li>
+                            <li><b>Gentilicio:</b> cairota</li>
+                            <li><b>Gobernador:</b> Khaled Abdel Aal</li>
+                        </ul>
 
-                    <h2>Atracciones destacadas</h2>
+                        <input type="checkbox" id="btn" />
+                        <label for="btn"></label>
 
-                    <ul id="attraction-list">
+                    </div>
 
-                        <li>
-                            <h4>las Pirámides de Giza</h4>
-                        </li>
-
-                        <li>
-                            <h4>El Barrio Copto y la antigua al-Fustat</h4>
-                        </li>
-
-                        <li>
-                            <h4>Las islas del Nilo: Gezira y Rhoda</h4>
-                        </li>
-
-                    </ul>
+                    <iframe style="margin-top: 40px;" width="560" height="315" src="https://www.youtube.com/embed/2PMHKOFjPWc?si=Ej6J-ivl24QgMJMf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 </section>
 
@@ -117,28 +118,58 @@
                     <ul>
                         <li>
                             <h4>Día 1: Pirámides de Giza, Menfis y Saqqara</h4>
-                            <p>Enamoraos de Egipto en esta excursión a las pirámides de Giza, Menfis y Saqqara. Nuestro experto egiptólogo os hará retroceder en el tiempo casi 5000 años</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Enamoraos de Egipto en esta excursión a las pirámides de Giza, Menfis y Saqqara. Nuestro experto egiptólogo os hará retroceder en el tiempo casi 5000 años
+                                    </div>
+                                  </div>
+                    
     
                         </li>
     
                         <li>
                             <h4>Día 2: Crucero por el Nilo con cena y espectáculo</h4>
-                            <p>Vive una noche diferente a bordo de un crucero por el Nilo. Podrás admirar El Cairo iluminado, degustar una sabrosa cena y disfrutar del espectáculo.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Vive una noche diferente a bordo de un crucero por el Nilo. Podrás admirar El Cairo iluminado, degustar una sabrosa cena y disfrutar del espectáculo.
+                                    </div>
+                                  </div>
+
                         </li>
     
                         <li>
                             <h4>Día 3: Excursión a Alejandría</h4>
-                            <p>El legado cultural de Alejandría queda patente en sus monumentos y yacimientos arqueológicos. Sumergíos en su pasado con esta excursión desde El Cairo.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        El legado cultural de Alejandría queda patente en sus monumentos y yacimientos arqueológicos. Sumergíos en su pasado con esta excursión desde El Cairo.
+                                    </div>
+                                  </div>
+
                         </li>
     
                         <li>
                             <h4>Día 4: Tour histórico por El Cairo del califato fatimí</h4>
-                            <p>En este tour descubriréis algunos de los lugares y monumentos más increíbles de El Cairo, lugares que se salen de las rutas tradicionales.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        En este tour descubriréis algunos de los lugares y monumentos más increíbles de El Cairo, lugares que se salen de las rutas tradicionales.
+                                    </div>
+                                  </div>
+
                         </li>
     
                         <li>
                             <h4>Día 5: Excursión al oasis de Fayoum</h4>
-                            <p>Al sur de El Cairo se ubica uno de los espacios más increíbles de Egipto: el oasis de Fayoum. Descubre este paraje donde se entremezclan historia y naturaleza.</p>
+                            <div class="expander">
+
+                                    <div class="expander-content">
+                                        Al sur de El Cairo se ubica uno de los espacios más increíbles de Egipto: el oasis de Fayoum. Descubre este paraje donde se entremezclan historia y naturaleza.
+                                    </div>
+                                  </div>
+
                         </li>
                     </ul>
                     
@@ -157,14 +188,41 @@
                     
                 </section>
 
+                <section id="tralev-spot-attractions">
+    
+                    <h2>Atracciones destacadas</h2>
+
+                    <div id="attraction-list">
+
+                        <div id="image-container1" style='background-image: url("https://cdn.pixabay.com/photo/2018/06/16/10/10/pyramid-3478575_1280.jpg");'>
+                            <h4>las Pirámides de Giza</h4>
+                        </div>
+
+                        <div id="image-container2" style='background-image: url("https://cdn.pixabay.com/photo/2017/01/14/20/55/cairo-1980350_1280.jpg");'>
+                            <h4>El Barrio Copto y la antigua al-Fustat</h4>
+                            
+                        </div>
+
+                        <div id="image-container3" style='background-image: url("https://cdn.pixabay.com/photo/2019/11/04/10/00/nile-river-4600719_1280.jpg");'>
+                            <h4>Las islas del Nilo: Gezira y Rhoda</h4>
+                            
+                        </div>
+
+                    </div>
+
+
+                </section>
+
             </article>
+
+            
 
         </main>
 
         <footer>
 
             <a href="#">
-                <img src="media/arrowUp.png" alt="Volver arriba" width="30" height="30"/>
+                <img id="arrow-up" src="media/arrowUp.png" alt="Volver arriba" width="30" height="30"/>
             </a>
     
             <p>
